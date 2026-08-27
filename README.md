@@ -67,7 +67,7 @@ label_encoder = joblib.load('Artifacts/LabelEncoder_Fuel_Type.joblib')
 # Predict on preprocessed numerical features
 # predictions = model.predict(scaled_data)
 ```
-📊 Workflow Overview
+## 📊 Workflow Overview
 
 ● Data Cleaning & Ingestion: Raw specification data covering 2015 through 2026 is ingested and formatted into a cleaned dataset saved at Data/Processed/Cleaned_EV_Vehicle_Specs.csv.
 
